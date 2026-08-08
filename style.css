@@ -1,0 +1,154 @@
+/* =========================================================
+   MAIN WINDOW
+   ========================================================= */
+
+window {
+    background: #101214;
+}
+
+
+/* =========================================================
+   DISPLAY
+   ========================================================= */
+
+entry {
+    background: #202326;
+
+    color: #ffffff;
+
+    font-size: 38px;
+
+    font-weight: bold;
+
+    border: 2px solid #44484d;
+
+    border-radius: 14px;
+
+    padding: 15px;
+}
+
+
+/* =========================================================
+   ALL BUTTONS
+   ========================================================= */
+
+button {
+    color: #ffffff;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    min-height: 70px;
+
+    border-radius: 12px;
+
+    border: 1px solid #44484d;
+
+    background: #292d31;
+}
+
+
+/* =========================================================
+   NUMBER BUTTONS
+   ========================================================= */
+
+button.number {
+    background: #292d31;
+
+    color: #ffffff;
+}
+
+
+button.number:hover {
+    background: #3a3f44;
+}
+
+
+button.number:active {
+    background: #4b5157;
+}
+
+
+/* =========================================================
+   OPERATOR BUTTONS
+   ========================================================= */
+
+button.operator {
+    background: #f28c00;
+
+    color: #ffffff;
+}
+
+
+button.operator:hover {
+    background: #ff9f1c;
+}
+
+
+button.operator:active {
+    background: #d97900;
+}
+
+
+/* =========================================================
+   CLEAR BUTTON
+   ========================================================= */
+
+button.clear {
+    background: #d62839;
+
+    color: #ffffff;
+}
+
+
+button.clear:hover {
+    background: #ed3b4c;
+}
+
+
+button.clear:active {
+    background: #b91f2e;
+}
+
+
+/* =========================================================
+   FUNCTION BUTTONS
+   ========================================================= */
+
+button.function {
+    background: #555a60;
+
+    color: #ffffff;
+}
+
+
+button.function:hover {
+    background: #70757a;
+}
+
+
+button.function:active {
+    background: #858b91;
+}
+
+
+/* =========================================================
+   EQUALS BUTTON
+   ========================================================= */
+
+button.equals {
+    background: #2875d6;
+
+    color: #ffffff;
+}
+
+
+button.equals:hover {
+    background: #3d8bea;
+}
+
+
+button.equals:active {
+    background: #1d5fb5;
+}
